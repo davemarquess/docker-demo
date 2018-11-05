@@ -1,10 +1,11 @@
-https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+# https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
-# LTS
-FROM node:10.13.0
+# LTS // confidence that this version of node will be supported for 5 years
+#starting point, where the image is coming from
+# FROM node:10.13.0
 
 # Latest
-# FROM node:latest
+FROM node:latest
 
 # Create app directory
 WORKDIR /usr/src/app
