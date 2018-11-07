@@ -1,8 +1,9 @@
 # https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 
-# LTS // confidence that this version of node will be supported for 5 years
+# LTS --> long term support - 
+# confidence that this version of node will be supported for 5 years
 #starting point, where the image is coming from
-# FROM node:10.13.0
+#FROM node:10.13.0
 
 # Latest
 FROM node:latest
